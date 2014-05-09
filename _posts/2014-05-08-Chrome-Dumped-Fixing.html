@@ -5,6 +5,8 @@ title: 修复一个简单的Chrome Dumped问题
 
 <h2>{{ page.title }}</h2>
 
-<p>今天心血来潮开始学习Android开发，在笔记本上安装adt-bundle（说到着，不得不表扬下google，真是业界良心啊，还定制并打包了基于eclipse IDE的Andriod开发平台）。按照网上的步骤顺利完成操作，正准备打开CHrome时，意外发生，Chrome无法打开。</p>
+<p>    今天心血来潮开始学习Android开发，在笔记本上安装adt-bundle（说到着，不得不表扬下google，真是业界良心啊，还定制并打包了基于eclipse IDE的Andriod开发平台）。按照网上的步骤顺利完成操作，正准备打开CHrome时，意外发生，Chrome无法打开。</p>
+
+<p>    这时，为了确定Chrome出现的问题，利用命令行启动Chrome，我的ubuntu13.04下Chrome默认安装路径是/opt/google/chrome/，在命令行下运行./chrome 弹出错误信息：/bin/google-chrome: error while loading shared libraries: libudev.so.0: cannot open shared object file: No such file or directory</p>
 
 <p>{{ page.date | date_to_string }}</p>
