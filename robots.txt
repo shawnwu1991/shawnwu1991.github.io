@@ -1,0 +1,3 @@
+Sitemap: http://shawnwu1991.github.com/sitemap.xml
+User-agent: *
+Allow: /
